@@ -5,6 +5,7 @@ def fizzbuzz(int)
     puts "Buzz"
   elsif int % 3 == 0 && int % 5 == 0 
     puts "FizzBuzz"
-  elsif int % 3 !== 0 && int % 5 !== 0
-    puts "nil"
+  elsif int % 3 != 0 && int % 5 != 0
+    puts nil
+  end
 end

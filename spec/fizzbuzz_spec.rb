@@ -18,7 +18,7 @@ RSpec.describe "Fizz Buzz Tests" do
     expect(fizzBuzz(90)).to eq "FizzBuzz"
   end
 
-  it "should return 7 since it is indivisible by 3 and 5" do
-    expect(fizzBuzz(7)).to eq 7
+  it "should return nil since it is indivisible by 3 and 5" do
+    expect(fizzBuzz(7)).to eq nil
   end
 end

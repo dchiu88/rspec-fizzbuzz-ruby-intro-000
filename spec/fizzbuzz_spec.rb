@@ -1,3 +1,6 @@
+require_relative './spec_helper.rb'
+require_relative '../fizzbuzz.rb'
+
 RSpec.describe "Fizz Buzz Tests" do
   it "should return `Fizz` for number divisible by 3" do
     expect(fizzBuzz(3)).to eq "Fizz"

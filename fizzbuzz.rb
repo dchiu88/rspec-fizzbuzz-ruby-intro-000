@@ -1,3 +1,5 @@
+require 'rspec'
+
 def fizzBuzz(number)
   if number % 3 == 0 && number % 5 == 0
     "FizzBuzz"
@@ -6,6 +8,6 @@ def fizzBuzz(number)
   elsif number % 5 == 0
     "Buzz"
   else
-    nil
+    number
   end
 end
